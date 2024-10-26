@@ -13,8 +13,8 @@ Contract creation tx is [here](https://sepolia.etherscan.io/tx/0x2774f4dd6e6ec3c
 * Change it a 
 [second time](https://sepolia.etherscan.io/tx/0x61025dfbe057ce2c3394a5dddfb85a6829104864a11782498fdf1e9c88b355af).
 * Transfer ownership to a 
-[new address](https://sepolia.etherscan.io/tx/0xdcef6a71a8213441882c7bfabfbc8769382ae9fcb4f5c7e969dec8ee43649df2). Also see it in the [Remix IDE](./images/new_owner.png)
-* Try to call setText() and get an error in MetaMask that [RPC Error: execution reverted: Caller is not the owner Object](./images/settext_error.png) as expected given that ownership has changed.
+[new address](https://sepolia.etherscan.io/tx/0xdcef6a71a8213441882c7bfabfbc8769382ae9fcb4f5c7e969dec8ee43649df2). Also see it in the Remix IDE. ![Remix IDE_new_owner](./images/new_owner.png)
+* Try to call setText() and get an error in MetaMask that as expected given that ownership has changed: "RPC Error: execution reverted: Caller is not the owner Object" ![RPC Error: execution reverted: Caller is not the owner Object](./images/settext_error.png) 
 
 
 
